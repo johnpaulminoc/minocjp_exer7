@@ -2,21 +2,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start; 
     background-color: lightblue;
 }
 
 .food-card {
-    width: 200px; /* Adjust the width as needed */
+    width: 200px; 
     margin: 10px;
     padding: 10px;
     background-color: cream;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    text-align: center; /* Center the text */
+    box-sizing: border-box; 
+    text-align: center; 
 }
 
 .food-card img {
-    max-width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px; 
 }
 
 #foodForm {

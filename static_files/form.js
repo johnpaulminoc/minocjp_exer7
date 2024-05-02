@@ -1,8 +1,7 @@
 let foodcardslist = [];
 
 // function to validate the form input
-function validateform(event) 
-{
+function validateform(event) {
     // get values from form fields
     const name = document.getElementById("foodName").value;
     const description = document.getElementById("description").value;
@@ -109,8 +108,7 @@ function displayfoodcards()
             deletebutton.innerText = "Delete";
 
             //event listener for delete button
-            deletebutton.onclick = function() 
-            {
+            deletebutton.onclick = function() {
                 deletefoodcard(index, cardelement);
             };
 
